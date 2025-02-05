@@ -6,6 +6,7 @@ Obtener elemento de la Lista: document.querySelector()
 Limpiar lista: lista.innerHTML = ""
 Indice aleatorio: Math.random()
 Resultado document.getElementById()//
+
 function agregarAmigo(){
     nombreIngresado = document.getElementById("amigo").value;
     if(nombreIngresado === ""){
